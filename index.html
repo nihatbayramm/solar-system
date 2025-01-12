@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <a href="https://www.instagram.com/nihatbayramm/" id="nihat">Nihat Bayram</a>
+  <a href="https://www.instagram.com/1hasanugras/" id="hasan">Hasan Uğraş</a>
+
+    <a href="https://www.instagram.com/lms_emir/" id="emirhan">Emirhan Erkan</a>
+    <a href="https://www.instagram.com/batukacovski/" id="batuhan">Batuhan Simsar</a>
+  <h1 class='logo'>
+    Güneş Sistemi
+    
+  </h1>
+  <input class='planet9' id='pluto' type='radio' name='planet'>
+  <label class='menu pluto' for='pluto'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Plüton
+      </h2>
+    </div>
+  </label>
+  <input class='planet8' id='neptune' type='radio' name='planet'>
+  <label class='menu neptune' for='neptune'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Neptün
+      </h2>
+    </div>
+  </label>
+  <input class='planet7' id='uranus' type='radio' name='planet'>
+  <label class='menu uranus' for='uranus'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Uranüs
+      </h2>
+    </div>
+  </label>
+  <input class='planet6' id='saturn' type='radio' name='planet'>
+  <label class='menu saturn' for='saturn'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Satürn
+      </h2>
+    </div>
+  </label>
+  <input class='planet5' id='jupiter' type='radio' name='planet'>
+  <label class='jupiter menu' for='jupiter'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Jüpiter
+      </h2>
+    </div>
+  </label>
+  <input class='planet4' id='mars' type='radio' name='planet' checked='checked'>
+  <label class='mars menu' for='mars'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Mars
+      </h2>
+    </div>
+  </label>
+  <input class='planet3' id='earth' type='radio' name='planet' checked='checked'>
+  <label class='earth menu' for='earth'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Dünya
+      </h2>
+    </div>
+  </label>
+  <input class='planet2' id='venus' type='radio' name='planet' checked='checked'>
+  <label class='menu venus' for='venus'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Venüs
+      </h2>
+    </div>
+  </label>
+  <input class='planet1' id='mercury' type='radio' name='planet' checked='checked'>
+  <label class='menu mercury' for='mercury'>
+    <div class='preview'></div>
+    <div class='info'>
+      <h2>
+        <div class='pip'></div>
+        Merkür
+      </h2>
+    </div>
+  </label>
+  <div class='solar'>
+    <div class='solar_systm'>
+      <div class='mercury planet'>
+        <div class='mercury planet_description'>
+          <h2>Gezegen</h2>
+          <h1>Merkür</h1>
+          <p>Güneşe en yakın gezegen. Güneşin etrafında diğer tüm gezegenlerden daha hızlı döner, bu yüzden Romalılar ona hızlı ayaklı haberci tanrılarının adını verdiler.</p>
+          <label for='readMercury'>
+            <a>
+              Devamını Ok
+              <span>u</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet venus'>
+        <div class='planet_description venus'>
+          <h2>Gezegen</h2>
+          <h1>Venüs</h1>
+          <p>Adını Roma aşk ve güzellik tanrıçasından almıştır. Antik çağlarda Venüs'ün akşam yıldızı ve sabah yıldızı olmak üzere iki farklı yıldız olduğu düşünülürdü.</p>
+          <label for='readVenus'>
+            <a>
+              Devamını Ok
+              <span>u</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='earth planet'>
+        <div class='moon moon'>
+          <h3>Ay</h3>
+          <h2>Ay</h2>
+        </div>
+        <div class='m trajectory'></div>
+        <div class='earth planet_description'>
+          <h2>Gezegen</h2>
+          <h1>Dünya</h1>
+          <p>Dünya, hepimizin ortak kiracı olduğu bir kozmik apartman dairesi!.</p>
+          <label for='readEarth'>
+            <a>
+              Devamını Ok
+              <span>u</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='mars planet'>
+        <div class='deimos moon'>
+          <h3>Ay</h3>
+          <h2>Deimos</h2>
+        </div>
+        <div class='d trajectory'></div>
+        <div class='moon phoebos'>
+          <h3>AY</h3>
+          <h2>Phoebos</h2>
+        </div>
+        <div class='p trajectory'></div>
+        <div class='mars planet_description'>
+          <h2>Gezegen</h2>
+          <h1>Mars</h1>
+          <p>Mars, Güneş Sistemi'nin dördüncü sakini ve gezegenlerin minikler kategorisinde ikinci sırada! 👽🚀</p>
+          <label for='readMars'>
+            <a>
+              Devamını Ok
+              <span>u</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='jupiter planet'>
+        <div class='lo moon'>
+          <h3>Ay</h3>
+          <h2>Io</h2>
+        </div>
+        <div class='europa moon'>
+          <h3>Ay</h3>
+          <h2>Avrupa</h2>
+        </div>
+        <div class='ganymede moon'>
+          <h3>Ay</h3>
+          <h2>Ganimede</h2>
+        </div>
+        <div class='lop trajectory'></div>
+        <div class='eu trajectory'></div>
+        <div class='ga trajectory'></div>
+        <div class='jupiter planet_description'>
+          <h2>Gezegen</h2>
+          <h1>Jupiter</h1>
+          <p>Jüpiter, Güneş Sistemi'nin abisi, tam bir devasa gaz topu! Öyle büyük ki, diğer gezegenler yanına gelse "Kardeşim, bu kadar küçük mü kaldınız?" diye dalga geçer.🌪️👑. </p>
+          <label for='readJupiter'>
+            <a>
+              Devamını Ok
+              <span>u</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet saturn'>
+        <div class='moon titan'>
+          <h3>Ay</h3>
+          <h2>Titan</h2>
+        </div>
+        <div class='dione moon'>
+          <h3>Ay</h3>
+          <h2>Dion</h2>
+        </div>
+        <div class='enceladus moon'>
+          <h3>Ay</h3>
+          <h2>Enceladus</h2>
+        </div>
+        <div class='ti trajectory'></div>
+        <div class='di trajectory'></div>
+        <div class='enc trajectory'></div>
+        <div class='planet_description saturn'>
+          <h2>Gezegen</h2>
+          <h1>Satürn,</h1>
+          <p>Satürn, Güneş Sistemi'nin mücevher kutusu! Güneş'ten altıncı sırada, devasa bir gezegen olmasının yanı sıra halkalarıyla tam bir moda ikonu. 💍✨</p>
+          <label for='readSaturn'>
+            <a>
+              Devamını Ok
+              <span>u</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet uranus'>
+        <div class='miranda moon'>
+          <h3>Ay</h3>
+          <h2>Miranda</h2>
+        </div>
+        <div class='ariel moon'>
+          <h3>Ay</h3>
+          <h2>Ariel</h2>
+        </div>
+        <div class='moon umbriel'>
+          <h3>Ay</h3>
+          <h2>Umbriel</h2>
+        </div>
+        <div class='mir trajectory'></div>
+        <div class='ari trajectory'></div>
+        <div class='trajectory umb'></div>
+        <div class='planet_description uranus'>
+          <h2>Gezegen</h2>
+          <h1>Uranüs</h1>
+          <p>Uranüs, bilim insanlarının teleskopla keşfettiği ilk gezegen ve adeta "Farklı olmak benim işim" diyen bir kozmik asi!</p>
+          <label for='readUranus'>
+            <a>
+              Devamını Ok
+              <span>u</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='neptune planet'>
+        <div class='moon triton'>
+          <h3>Ay</h3>
+          <h2>Triton</h2>
+        </div>
+        <div class='moon proteus'>
+          <h3>Ay</h3>
+          <h2>Proteus</h2>
+        </div>
+        <div class='moon nereid'>
+          <h3>Ay</h3>
+          <h2>Nereid</h2>
+        </div>
+        <div class='trajectory tri'></div>
+        <div class='pro trajectory'></div>
+        <div class='ner trajectory'></div>
+        <div class='neptune planet_description'>
+          <h2>Gezegen</h2>
+          <h1>Neptün</h1>
+          <p>Neptün, Güneş Sistemi'nin sınır bekçisi ve sekizinci gezegeni! Kendisini bulmak da kolay olmadı🌪️🌊</p>
+          <label for='readNeptune'>
+            <a>
+              Devamını Ok
+              <span>u</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'></div>
+      </div>
+    </div>
+    <div class='solar_systm'>
+      <div class='planet pluto'>
+        <div class='planet_description pluto'>
+          <h2>Cüce Gezegen</h2>
+          <h1>Plüton</h1>
+          <p>
+            Plüton, bir zamanlar Güneş Sistemi'nin "en uzak ve dokuzuncu gezegen" unvanına sahipti, ama sonra "küçüksün sen, cüce gezegen ol!" diye kaderi değişti. 🪐😂</p>
+          <label for='readPluto'>
+            <a>
+              Devamını Ok
+              <span>u</span>
+            </a>
+          </label>
+        </div>
+        <div class='overlay'>               </div>
+      </div>
+    </div>
+  </div>
+  <input class='read' id='readMercury' type='radio' name='mercuryRead'>
+  <label class='closeBig' for='closeMercury'></label>
+  <input class='read' id='closeMercury' type='radio' name='mercuryRead'>
+  <div class='panel'>
+    <h1>Merkür</h1>
+    <p>Merkür güneşe en yakın gezegendir. Bu nedenle güneşin çevresinde diğer tüm gezegenlerden daha hızlı döner; bu nedenle Romalılar ona hızlı ayaklı haberci tanrılarının adını verdiler.</p>    <p>The Sumerians also knew of Mercury since at least 5,000 years ago. It was often associated with Nabu, the god of writing. Mercury was also given separate names for its appearance as both a morning star and as an evening star. Greek astronomers knew, however, that the two names referred to the same body, and Heraclitus, around 500 B.C., correctly thought that both Mercury and Venus orbited the sun, not Earth.</p>
+    <img src='https://i2.wp.com/www.astronomytrek.com/wp-content/uploads/2012/11/mercury-1.jpg?fit=678%2C381&ssl=1'>
+    <h2>Merkür'de bir yıl yalnızca 88 gün sürer.</h2>
+    <p>Merkür'deki bir güneş günü (gezegenin yüzeyinde öğleden öğlene kadar olan süre) 176 Dünya gününe eşdeğer sürerken, yıldız günü (sabit bir noktaya göre 1 dönüş süresi) 59 Dünya günü sürer. Merkür neredeyse gelgit açısından Güneş'e kilitlendi ve zamanla bu durum gezegenin dönüşünü neredeyse Güneş etrafındaki yörüngesine uyacak şekilde yavaşlattı. Merkür aynı zamanda Güneş'e olan uzaklığının 46 ile 70 milyon km arasında değişmesiyle tüm gezegenler arasında en yüksek yörünge eksantrikliğine sahiptir.</p>
+    <h2>Merkür, Güneş Sistemindeki en küçük gezegendir.</h2>
+    <p>Çıplak gözle görülebilen beş gezegenden biri olan Merkür, ekvatorunda yalnızca 4.879 Kilometre uzaktayken, Dünya'nınki 12.742 Kilometredir.</p>
+    <h2>Merkür ikinci en yoğun gezegendir. </h2>
+    <p>Gezegen küçük olmasına rağmen Merkür çok yoğundur. Her santimetreküpün yoğunluğu 5,4 gramdır, yalnızca Dünya'nın yoğunluğu daha yüksektir. Bunun nedeni büyük ölçüde Merkür'ün ağırlıklı olarak ağır metallerden ve kayalardan oluşmasıdır.</p>
+    <h2>Merkür'ün kırışıklıkları vardır.</h2>
+    <p>Gezegenin demir çekirdeği soğuyup büzüldükçe, gezegenin yüzeyi kırıştı. Bilim insanları bu kırışıklıklara Lobate Scarps adını verdi. Bu Kayalıklar bir mil yüksekliğe ve yüzlerce mil uzunluğa sahip olabilir.</p>
+    <br>
+  </div>
+  <input class='read' id='readVenus' type='radio' name='venusRead'>
+  <label class='closeBig' for='closeVenus'></label>
+  <input class='read' id='closeVenus' type='radio' name='venusRead'>
+  <div class='panel'>
+    <h1>Venüs</h1>
+    <p>Güneşten ikinci gezegen olan Venüs, adını Roma'nın aşk ve güzellik tanrıçasından alır. Adını bir dişiden alan tek gezegen olan gezegen, antik gökbilimciler tarafından bilinen beş gezegen arasında en parlak olanı parladığı için panteonunun en güzel tanrısı olarak adlandırılmış olabilir.</p>
+    <p>Antik çağlarda Venüs'ün genellikle akşam yıldızı ve sabah yıldızı olmak üzere iki farklı yıldız olduğu düşünülüyordu; yani ilk kez gün batımında ve gün doğumunda ortaya çıkan yıldızlardı. Latince'de sırasıyla Vesper ve Lucifer olarak biliniyorlardı. Hıristiyanlık döneminde Lucifer veya "ışık getiren", Şeytan'ın düşüşünden önceki adı olarak biliniyordu. Ancak uzay çağında Venüs'ün daha sonraki gözlemleri oldukça cehennem gibi bir ortam olduğunu gösteriyor. Bu, Venüs'ü yakından gözlemlemeyi çok zor bir gezegen haline getiriyor çünkü uzay araçları yüzeyinde uzun süre hayatta kalamıyor.</p>
+    <img src='https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2014/2-whatistheave.jpg'>
+    <h2>Venüs'te bir gün bir yıldan daha uzun sürer. </h2>
+    <p>Kendi ekseni etrafında bir kez dönmesi (yıldız günü) 243 Dünya günü sürer. Gezegenin Güneş etrafındaki yörüngesi 225 Dünya günü sürerken, Dünya'nınki 365'tir. Venüs'ün yüzeyindeki bir gün (güneş günü) 117 Dünya günü sürer.</p>
+    <h2>Venüs diğer gezegenlerin çoğunun tersi yönde döner. </h2>
+    <p>Bu, Venüs'ün Güneş'e ters yönde döndüğü anlamına gelir; buna geriye dönük dönüş de denir. Olası bir neden, geçmişte bir asteroit veya başka bir nesneyle çarpışma sonucu gezegenin dönüş yolunu değiştirmesi olabilir. Ayrıca hiçbir doğal uyduya sahip olmaması nedeniyle güneş sistemimizdeki diğer gezegenlerin çoğundan farklıdır.</p>
+    <h2>Venüs gece gökyüzündeki en parlak ikinci nesnedir. </h2>
+    <p>Yalnızca Ay daha parlaktır. -3,8 ila -4,6 kadir büyüklüğüne sahip olan Venüs o kadar parlak ki, açık bir günde gündüz bile görülebiliyor.</p>
+    <h2>Venüs üzerindeki atmosfer basıncı Dünya'nınkinden 92 kat daha fazladır. </h2>
+    <p>Boyut ve kütle Dünya'ya benzer olsa da, küçük asteroitler atmosferine girerken eziliyor, bu da gezegenin yüzeyinde küçük kraterlerin bulunmadığı anlamına geliyor. Bir insanın yüzeyde hissettiği basınç, Dünya'da denizin derinliklerinde yaşanan basınca eşdeğer olacaktır.</p>
+    <br>
+  </div>
+  <input class='read' id='readEarth' type='radio' name='earthRead'>
+  <label class='closeBig' for='closeEarth'></label>
+  <input class='read' id='closeEarth' type='radio' name='earthRead'>
+  <div class='panel'>
+    <h1>Dünya</h1>
+    <p>Evimiz olan Dünya, güneşten uzaktaki üçüncü gezegendir. Serbest oksijen içeren bir atmosfere, yüzeyinde sıvı su okyanuslarına ve elbette hayata sahip olduğu bilinen tek gezegendir.</p>
+    <p>Dünya, güneş sistemindeki gezegenlerin beşinci en büyüğüdür; dört gaz devi Jüpiter, Satürn, Uranüs ve Neptün'den daha küçüktür, ancak diğer üç kayalık gezegenden daha büyüktür </p>
+    <img src='https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&h=350'>
+    <h2>Dünyanın dönüşü giderek yavaşlıyor.</h2>
+    <p>Bu yavaşlama, neredeyse fark edilmeyecek şekilde, yüz yılda yaklaşık 17 milisaniyede gerçekleşiyor, ancak meydana gelme hızı tam anlamıyla tek tip olmasa da. Bu durum günlerimizin uzamasına neden oluyor, ancak bu o kadar yavaş oluyor ki bir günün uzunluğunun 25 saate çıkması 140 milyon yıl kadar sürebilir.</p>
+    <h2>Bir zamanlar Dünya'nın evrenin merkezi olduğuna inanılıyordu.</h2>
+    <p>Güneş'in ve gezegenlerin kendi bakış açılarına göre görünürdeki hareketleri nedeniyle, eski bilim adamları Dünya'nın sabit kaldığında ısrar ederken, diğer gök cisimleri onun etrafında dairesel yörüngelerde seyahat ediyordu. Sonunda Güneş'in evrenin merkezinde olduğu görüşü Kopernik tarafından öne sürüldü, ancak bu da doğru değil.</p>
+    <h2>Dünyanın güçlü bir manyetik alanı vardır.</h2>
+    <p>Bu olguya gezegenin nikel-demir çekirdeği ve hızlı dönüşü neden oluyor. Bu alan Dünya'yı güneş rüzgarlarının etkilerinden korur.</p>
+    <h2>Dünya gezegeninin tek bir doğal uydusu vardır.</h2>
+    <p>Yörüngesinde döndüğü cismin büyüklüğünün yüzdesi olarak Ay, güneş sistemimizdeki gezegenler arasında en büyük uydudur. Ancak gerçek anlamda yalnızca beşinci en büyük doğal uydudur.</p>
+    <br>
+  </div>
+  <input class='read' id='readMars' type='radio' name='marsRead'>
+  <label class='closeBig' for='closeMars'></label>
+  <input class='read' id='closeMars' type='radio' name='marsRead'>
+  <div class='panel'>
+    <h1>Mars</h1>
+    <p>Mars güneşten dördüncü gezegendir. Kızıl gezegenin kanlı rengine yakışan Romalılar ona savaş tanrılarının adını verdiler. Romalılar, gezegene savaş tanrıları Ares'in adını da veren eski Yunanlıları kopyaladılar. Diğer uygarlıklar da gezegene genellikle rengine göre isim verirdi; örneğin Mısırlılar ona "kırmızı olan" anlamına gelen "Her Desher" adını verirken, eski Çinli gökbilimciler ona "ateş yıldızı" adını verdiler.</p>
+    <img src='https://1.bp.blogspot.com/-ou7Je3OVg6U/WYtxDqjNp_I/AAAAAAAACSQ/fsopS5VtFg4bmlv8hQNfiRYfJqTygCotQCLcBGAs/s2048/Martian%2Blandscape%2Bby%2BAmante%2BLombardi.jpg'>
+    <h2>Mars ve Dünya yaklaşık olarak aynı kara kütlesine sahiptir.</h2>
+    <p>Mars, Dünya hacminin yalnızca %15'ine ve Dünya kütlesinin %10'undan biraz fazlasına sahip olmasına rağmen, Dünya yüzeyinin yaklaşık üçte ikisi suyla kaplıdır. Mars yüzeyinin yerçekimi Dünya'nınkinin yalnızca %37'sidir (yani Mars'ta neredeyse üç kat daha yükseğe sıçrayabilirsiniz).</p>
+    <h2>Mars, güneş sistemindeki en yüksek dağa ev sahipliği yapar.</h2>
+    <p>Bir kalkan yanardağı olan Olympus Mons, 21 km yüksekliğinde ve 600 km çapındadır. Milyarlarca yıl boyunca oluşmuş olmasına rağmen, volkanik lav akıntılarından elde edilen kanıtlar o kadar yeni ki birçok bilim insanı bunun hala aktif olabileceğine inanıyor.</p>
+    <h2>Mars'a yapılan yalnızca 18 görev başarılı oldu.</h2>
+    <p>Eylül 2014 itibarıyla Mars'a yörünge araçları, iniş araçları ve geziciler dahil olmak üzere 40 görev gerçekleştirildi, ancak yakın uçuşlar sayılmıyor. En son gelenler arasında 2012'deki Mars Curiosity misyonu, 22 Eylül 2014'te gelen MAVEN misyonu ve ardından 24 Eylül 2014'te gelen Hindistan Uzay Araştırma Örgütü'nün MOM Mangalyaan yörünge aracı yer alıyor. Gelecek görevler arasında şunlar yer alacak: Avrupa Uzay Ajansı'nın bir yörünge aracı, bir iniş aracı ve bir geziciden oluşan ExoMars misyonu ve ardından NASA'nın InSight robotik iniş misyonu, Mart 2016'da piyasaya sürülmesi planlanıyor ve Eylül 2016'da gelmesi planlanıyor.</p>
+    <h2>Mars, güneş sistemindeki en büyük toz fırtınalarına sahiptir.</h2>
+    <p>Aylarca sürebilir ve tüm gezegeni kaplayabilirler. Mevsimler aşırıdır çünkü Güneş çevresindeki eliptik (oval şekilli) yörünge yolu, güneş sistemindeki diğer gezegenlerin çoğundan daha uzundur.</p>
+    <br>
+  </div>
+  <input class='read' id='readJupiter' type='radio' name='jupiterRead'>
+  <label class='closeBig' for='closeJupiter'></label>
+  <input class='read' id='closeJupiter' type='radio' name='jupiterRead'>
+  <div class='panel'>
+    <h1>Jüpiter</h1>
+    <p>Jüpiter güneş sistemindeki en büyük gezegendir. Buna uygun olarak, Roma mitolojisindeki tanrıların kralının adını almıştır. Benzer şekilde eski Yunanlılar da gezegene Yunan panteonunun kralı Zeus'un adını verdiler.</p>
+    <p>Jüpiter, 1610 yılında Galileo'nun Jüpiter'in dört büyük uydusunu (şu anda Galilean uyduları olarak bilinen Io, Europa, Ganymede ve Callisto) keşfetmesiyle evrene ve kendimize bakış açımızda devrim yaratmaya yardımcı oldu. Bu, gök cisimlerinin Dünya dışında bir nesnenin etrafında döndüğü ilk seferdi; bu, Kopernik'in Dünya'nın evrenin merkezi olmadığı yönündeki görüşünü büyük ölçüde destekliyordu.</p>
+     <img src='http://hanaleikauaivacation.com/wp-content/uploads/parser/jupiter-landscape-1.jpg'>
+     <h2>Jüpiter, güneş sistemindeki en parlak dördüncü nesnedir.</h2>
+     <p>Yalnızca Güneş, Ay ve Venüs daha parlaktır. Dünya'dan çıplak gözle görülebilen beş gezegenden biridir.</p>
+     <h2>Jüpiter'i gördüklerini ilk kaydedenler antik Babilliler oldu.</h2>
+     <p>Bu, MÖ 7. veya 8. yüzyıl civarındaydı. Jüpiter, adını Roma tanrılarının kralından almıştır. Yunanlılara göre gök gürültüsü tanrısı Zeus'u temsil ediyordu. Mezopotamyalılar Jüpiter'i tanrı Marduk ve Babil şehrinin koruyucusu olarak görüyorlardı. Cermen kabileleri bu gezegeni Donar veya Thor olarak görüyordu.</p>
+     <h2>Jüpiter tüm gezegenler arasında en kısa güne sahiptir.</h2>
+     <p>Ekseni etrafında her 9 saat 55 dakikada bir döner. Hızlı dönüş, gezegeni hafifçe düzleştirerek ona basık bir şekil verir.</p>
+     <h2>Jüpiter her 11,8 Dünya yılında bir Güneş'in etrafında döner.</h2>
+     <p>Bizim Dünya bakış açımıza göre, gökyüzünde yavaş hareket ediyor gibi görünüyor; bir takımyıldızdan diğerine geçmesi aylar alıyor.</p>
+     <br>
+  </div>
+  <input class='read' id='readSaturn' type='radio' name='saturnRead'>
+  <label class='closeBig' for='closeSaturn'></label>
+  <input class='read' id='closeSaturn' type='radio' name='saturnRead'>
+  <div class='panel'>
+    <h1>Satürn</h1>
+    <p>Satürn, güneşe uzaklık açısından altıncı gezegendir ve güneş sistemindeki en büyük ikinci gezegendir. Satürn, Yunan mitolojisinde Titanların efendisi Cronus'un Roma dilindeki adıydı. Satürn, İngilizce "Cumartesi" kelimesinin köküdür.</p>
+    <p>Satürn, çıplak insan gözüyle görülebilen Dünya'ya en uzak gezegendir, ancak gezegenin en göze çarpan özellikleri teleskopla görülebilmektedir: Satürn'ün halkaları. Güneş sistemindeki diğer gaz devleri Jüpiter, Uranüs ve Neptün'ün de halkaları olmasına rağmen Satürn'ünkiler şüphesiz en sıra dışı olanlardır.</p>
+    <img src='http://ak0.picdn.net/shutterstock/videos/4049260/thumb/1.jpg'>
+    <h2>Satürn çıplak gözle görülebilir.</h2>
+    <p>Güneş sistemindeki en parlak beşinci nesnedir ve aynı zamanda dürbün veya küçük bir teleskopla kolayca incelenebilir.</p>
+    <h2>Satürn, Babilliler ve Uzak Doğulu gözlemciler de dahil olmak üzere eski insanlar tarafından biliniyordu.</h2>
+    <p>Adını Roma tanrısı Saturnus'tan almıştır ve Yunanlılar tarafından Cronus olarak biliniyordu.</p>
+    <h2>Satürn en düz gezegendir.</h2>
+    <p>Kutup çapı ekvator çapının %90'ıdır; bunun nedeni düşük yoğunluğu ve hızlı dönüşüdür. Satürn kendi ekseni etrafında her 10 saat 34 dakikada bir döner ve bu da ona güneş sistemindeki gezegenler arasında en kısa ikinci günü verir.</p>
+    <h2>Satürn, her 29,4 Dünya yılında bir Güneş'in etrafında döner.</h2>
+    <p>Yıldızların arka planındaki yavaş hareketi, ona eski Asurlular tarafından "Lubadsagush" takma adını kazandırdı. Bu ad "eskilerin en eskisi" anlamına gelir.</p>
+    <br>
+  </div>
+  <input class='read' id='readUranus' type='radio' name='uranusRead'>
+  <label class='closeBig' for='closeUranus'></label>
+  <input class='read' id='closeUranus' type='radio' name='uranusRead'>
+  <div class='panel'>
+    <h1>Uranüs</h1>
+    <p>Uranüs, güneşten yedinci gezegendir ve bilim adamları tarafından keşfedilen ilk gezegendir. Uranüs çıplak gözle görülebilmesine rağmen, gezegenin loşluğu ve yavaş yörüngesi nedeniyle uzun süre yıldız sanılmıştı. Gezegen aynı zamanda ekseninin neredeyse doğrudan güneşe yönelmesine neden olan dramatik eğimiyle de dikkat çekiyor.</p>
+    <p>İngiliz gökbilimci William Herschel, 13 Mart 1781'de, çıplak gözle görülebilenden yaklaşık 10 kat daha sönük yıldızlara kadar tüm yıldızları incelerken teleskopuyla tesadüfen Uranüs'ü keşfetti. Bir "yıldız" farklı görünüyordu ve bir yıl içinde Uranüs'ün bir gezegen yörüngesini takip ettiği görüldü.</p>
+     <img src='http://www.cosmosup.com/wp-content/uploads/2016/02/Uranus-Facts-About-the-Planet-Uranus-700x325.jpg'>
+     <h2>Uranüs resmi olarak 1781 yılında Sir William Herschel tarafından keşfedildi.</h2>
+     <p>Eskilerin göremeyeceği kadar loş. İlk başta Herschel bunun bir kuyruklu yıldız olduğunu düşündü, ancak birkaç yıl sonra gezegen olduğu doğrulandı. Herscal, keşfine Kral III. George'un anısına "Georgian Sidus" adını vermeye çalıştı. Uranüs ismi gökbilimci Johann Bode tarafından önerildi. Adı antik Yunan tanrısı Ouranos'tan gelmektedir.</p>
+     <h2>Uranüs kendi ekseni etrafında her 17 saat 14 dakikada bir döner.</h2>
+     <p>Gezegen, Dünya'nın ve diğer gezegenlerin çoğunun dönüş yönünün tersine, geriye doğru yönde dönüyor.</p>
+     <h2>Uranüs, her 84 Dünya yılında Güneş'in etrafında bir tur atar.</h2>
+     <p>Yörüngesinin bazı kısımlarında kutuplardan biri veya diğeri doğrudan Güneş'e bakar ve yaklaşık 42 yıl boyunca doğrudan güneş ışığı alır. Geri kalan zamanda karanlıktalar.</p>
+     <h2>Uranüs'e genellikle "buz devi" gezegeni denir.</h2>
+     <p>Diğer gaz devleri gibi, içinde helyum bulunan bir hidrojen üst katmanına sahiptir. Bunun altında, bir kayayı ve buz çekirdeğini çevreleyen buzlu bir “manto” bulunur. Atmosferin üst kısmı su, amonyak ve gezegene soluk mavi rengini veren metan buz kristallerinden oluşuyor.</p>
+     <br>
+  </div>
+  <input class='read' id='readNeptune' type='radio' name='neptuneRead'>
+  <label class='closeBig' for='closeNeptune'></label>
+  <input class='read' id='closeNeptune' type='radio' name='neptuneRead'>
+  <div class='panel'>
+    <h1>Neptün</h1>
+    <p>Neptün güneşten uzaktaki sekizinci gezegendir. Uranüs, 23 Eylül 1846'da teleskopla görülmeden önce varlığı matematiksel hesaplamalarla tahmin edilen ilk gezegendi. Uranüs'ün yörüngesindeki düzensizlikler, Fransız gökbilimci Alexis Bouvard'ın, başka bir gök cisminden gelen çekim kuvvetinin, Uranüs'ün yörüngesindeki düzensizlikler nedeniyle başka bir gök cisminden gelen çekim kuvvetinin olabileceğini öne sürmesine yol açtı. Sorumlu ol. Alman gökbilimci Johann Galle daha sonra Neptün'ün teleskopla tespit edilmesine yardımcı olmak için sonraki hesaplamalara güvendi. Daha önce gökbilimci Galileo Galilei gezegenin taslağını çizmişti ancak yavaş hareketi nedeniyle onu bir yıldız sanmıştı. Gökyüzünde görülen diğer tüm gezegenler gibi, bu yeni dünyaya da Yunan ve Roma mitolojisinden bir isim verildi: Roma'nın deniz tanrısı Neptün.</p>
+    <p>Neptün'den yalnızca bir görev uçtu: 1989'da Voyager 2; bu da gökbilimcilerin çalışmaların çoğunu yer tabanlı teleskoplar kullanarak yaptığı anlamına geliyor. Bugün, serin ve mavi gezegenle ilgili rüzgarların neden bu kadar hızlı olduğu ve manyetik alanının neden dengelendiği gibi pek çok gizem hâlâ mevcut.</p>
+    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8Dd14tbXAzh1iz-EJl9tulRwH7Bb-SxX6sXpKFDbqb-NKwpE'>
+    <h2>Neptün eski insanlar tarafından bilinmiyordu.</h2>
+    <p>Çıplak gözle görülemez ve ilk kez 1846'da gözlemlenmiştir. Konumu matematiksel tahminler kullanılarak belirlenmiştir. Adını Roma'nın deniz tanrısından almıştır.</p>
+    <h2>Neptün kendi ekseni etrafında çok hızlı döner.</h2>
+    <p>Ekvator bulutlarının bir dönüş yapması 18 saat sürüyor. Bunun nedeni Neptün'ün katı bir cisim olmamasıdır.</p>
+    <h2>Neptün buz devlerinin en küçüğüdür.</h2>
+    <p>Uranüs'ten daha küçük olmasına rağmen Neptün'ün kütlesi daha büyüktür. Uranüs, ağır atmosferinin altında hidrojen, helyum ve metan gazlarından oluşan katmanlardan oluşur. Bir su, amonyak ve metan buzu tabakasını çevrelerler. Gezegenin iç çekirdeği kayadan oluşuyor.</p>
+    <h2>Neptün'ün atmosferi hidrojen ve helyumun yanı sıra bir miktar metandan oluşur.</h2>
+    <p>Metan kırmızı ışığı emer ve bu da gezegenin hoş bir mavi görünmesini sağlar. Yüksek, ince bulutlar atmosferin üst kısmında sürükleniyor.</p>
+  </div>
+  <input class='read' id='readPluto' type='radio' name='plutoRead'>
+  <label class='closeBig' for='closePluto'></label>
+  <input class='read' id='closePluto' type='radio' name='plutoRead'>
+  <div class='panel'>
+    <h1>Plüton</h1>
+    <p>Bir zamanlar dokuzuncu ve güneşe en uzak gezegen olarak kabul edilen Plüton, artık güneş sistemindeki bilinen en büyük cüce gezegendir. Aynı zamanda, Neptün'ün yörüngesinin ötesinde, her biri 62 milden (100 kilometre) daha büyük yüzbinlerce kayalık, buzlu cisim ve 1 trilyon kayalık cisimle dolu olduğu düşünülen gölgeli bir bölge olan Kuiper Kuşağı'nın bilinen en büyük üyelerinden biridir. veya daha fazla kuyruklu yıldız. </p>
+    <p>2006 yılında Plüton cüce gezegen olarak yeniden sınıflandırıldı; bu değişiklik yaygın olarak bir sıralama olarak düşünülüyordu. Plüton'un gezegen statüsü sorusu o zamandan bu yana bilim camiasında ve genel halk arasında tartışmalara yol açtı ve tartışmaları alevlendirdi. 2017 yılında, bir bilim grubu (Yeni Ufuk misyonunun üyeleri de dahil), güneş sistemimizdeki gezegenlerin sayısını 8'den kabaca 100'e çıkaracak olan "uzaydaki yıldızlardan daha küçük yuvarlak nesnelere" dayanan yeni bir gezegenlik tanımı önerdi. .</p>
+    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/asd.jpeg'>
+    <h2>Plüton, adını Yunan yeraltı dünyasının tanrısından almıştır.</h2>
+    <p>Bu, daha iyi bilinen Hades'in daha sonraki adıdır ve Oxford, İngiltere'den on bir yaşındaki kız öğrenci Venetia Burney tarafından önerilmiştir.</p>
+    <h2>Plüton, 2006 yılında gezegen olmaktan çıkıp cüce gezegen olarak yeniden sınıflandırıldı.</h2>
+    <p>Bu, IAU'nun gezegen tanımını şu şekilde resmileştirdiği zamandır: "Gezegen, (a) Güneş'in etrafında yörüngede olan, (b) kendi yerçekiminin katı cisim kuvvetlerini yenmeye yetecek kadar kütlesi olan bir gök cismidir. hidrostatik denge (neredeyse yuvarlak) bir şekil aldığını ve (c) yörüngesinin etrafındaki mahalleyi temizlediğini."</p>
+    <h2>Plüton, 18 Şubat 1930'da Lowell Gözlemevi tarafından keşfedildi.</h2>
+    <p>Plüton'un keşfedilmesinden cüce gezegen olarak yeniden sınıflandırılmasına kadar geçen 76 yıl boyunca, Güneş etrafındaki yörüngesinin üçte biri kadarını tamamladı.</p>
+    <h2>Plüton'un bilinen beş uydusu vardır.</h2>
+    <p>Aylar Charon (1978'de keşfedildi), Hydra ve Nix (her ikisi de 2005'te keşfedildi), Kerberos orijinal olarak P4 (keşfedildi 2011) ve Styx orijinal olarak P5 (2012'de keşfedildi) olup resmi adları S/2011 (134340) 1 ve S'dir. /2012 (134340) 1.</p>
+  </div>
+</body>
+</html>
+
+
