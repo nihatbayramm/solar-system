@@ -28,9 +28,8 @@ GitHub Pages: Projenin yayınlanması
 
 📦 Kurulum
 
-1. Projeyi klonlayın:
-
 ```bash
+1. Projeyi klonlayın:
 git clone https://github.com/nihatbayramm/Gunes-sistemi
 cd Gunes-sistemi
 
