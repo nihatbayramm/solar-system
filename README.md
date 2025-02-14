@@ -31,8 +31,8 @@ GitHub Pages: Projenin yayınlanması
 ```bash
 1. Projeyi klonlayın:
 git clone https://github.com/nihatbayramm/Gunes-sistemi
-cd Gunes-sistemi
 
+3.cd Gunes-sistemi
 
 2. Projeyi bir tarayıcıda çalıştırmak için index.html dosyasını açın.
 
